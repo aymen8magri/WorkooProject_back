@@ -18,9 +18,9 @@ const userRoutes = require('./routes/user.route');
 const serviceRoutes = require('./routes/service.route');
 const proposalRoutes = require('./routes/proposal.route');
 // Using routes
-app.use('/user', userRoutes);
-app.use('/service', serviceRoutes);
-app.use('/proposal', proposalRoutes);
+app.use('/users', userRoutes);
+app.use('/services', serviceRoutes);
+app.use('/proposals', proposalRoutes);
 app.use('/image', express.static('./public'));
 
 
